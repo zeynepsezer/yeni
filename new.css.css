@@ -1,0 +1,149 @@
+h1 {color: #0174DF;
+background-image: url("http://www.cinemacityfilm.com/images/film-header.jpg");
+background-size: 75% 150%;
+font-size: 600%;}
+.all{background-color:skyblue;
+ background-image:url("https://awesomewallpapers.files.wordpress.com/2014/01/curtains.jpg");
+ background-size: 100% 180%;
+background-repeat: no-repeat ;
+ }
+ .button { border: 2px blue;
+   float: left;
+   color: #0174DF;
+   background-color: black;
+ text-decoration-color: #0174DF;
+font-size: 50px;
+-webkit-transition-duration: 0.4s;
+   transition-duration: 0.4s;}
+   .button:hover {
+    background-color: skyblue;
+    color: white;
+}
+.select {font-size: 30px;
+background-color: black;
+color: #0174DF;
+}
+.textarea {font-size: 30px;
+  background-color: black;
+  color: #0174DF;}
+#merhaba {color:white;
+font-size: 35px;
+font-family:times ;}
+#contact {color: white;
+font-size: 100px;}
+#face {color:white;
+font-size: 30px;}
+
+
+.fa {
+    padding: 25px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.container {
+  position: relative;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 1.0;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
